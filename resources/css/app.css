@@ -1,0 +1,9 @@
+/* csslint allow: adjoining-classes */
+/* eslint-disable-next-line no-console */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.spinner {
+    position: absolute;
+}
