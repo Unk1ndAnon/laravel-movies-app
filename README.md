@@ -1,11 +1,11 @@
 # Simple Movies App
 
-This is an web app that i follow the tutorial on [youtube](https://www.youtube.com/watch?v=9OKbmMqsREc) to build it. Just like the name of this repository, I use 'laravel' for backend of the website and I also use 'alpine.js' for user interactivity such as keyboard interaction, mouse interaction, etc. 
-For layouting and templating, I use default templating engine from laravel which is 'blade', and for some section of the website, i use 'laravel-livewire' to make the website doesn't always reload for minor changes and can re-render part of the website if there's a new data or new state.
+This is an web app that i follow the tutorial on [youtube](https://www.youtube.com/watch?v=9OKbmMqsREc) to build it. Just like the name of this repository, I use 'laravel' for backend of the app and I also use 'alpine.js' for user interactivity such as keyboard interaction, mouse interaction, etc. 
+For layouting and templating, I use default templating engine from laravel which is 'blade', and for some section of the pages, i use 'laravel-livewire' to make the pages doesn't always reload for minor changes and can re-render part of the pages if there's a new data or new state.
 And for the data, i use [The Movie DB](https://www.themoviedb.org/) API to get some data to use in this app.
 
 ## Notes
-In the website, you will see TV Shows and Actors section on the navbar. I don't finish it, because i think those section are actually same with the Movies Section, the differences are just in the content.
+In the app, you will see TV Shows and Actors section on the navbar. I don't finish it, because i think those section are actually same with the Movies Section, the differences are just in the content.
 
 ## Preview
 
