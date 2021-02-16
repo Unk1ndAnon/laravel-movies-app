@@ -37,7 +37,7 @@ cd laravel-movies-app
 php artisan serve
 ```
 
-After do the instructions, you will create a server usually running on 8000 port. To open the website, type localhost:8000 or another port you are using. And boom, you will be taken to the website.  
+After do the instructions, you will create a server which will normally run on port 8000. To open the website, type `http://localhost:8000` or whatever port you are using. And boom, you will be taken to the website. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
