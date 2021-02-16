@@ -1,62 +1,48 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Simple Movies App
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This is an web app that i follow the tutorial on [youtube](https://www.youtube.com/watch?v=9OKbmMqsREc) to build it. Just like the name of this repository, I use 'laravel' for backend of the website and I also use 'alpine.js' for user interactivity such as keyboard interaction, mouse interaction, etc. 
+For layouting and templating, I use default templating engine from laravel which is 'blade', and for some section of the website, i use 'laravel-livewire' to make the website doesn't always reload for minor changes and can re-render part of the website if there's a new data or new state.
+And for the data, i use [The Movie DB](https://www.themoviedb.org/) API to get some data to use in this app.
 
-## About Laravel
+## Notes
+In the website, you will see TV Shows and Actors section on the navbar. I don't finish it, because i think those section are actually same with the Movies Section, the differences are just in the content.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Preview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+##### Home Page
+![Home Page](./preview/home.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+##### Search Dropdown
+![Search Dropdown](./preview/searching.png)
 
-## Learning Laravel
+##### Details Page of The Movie
+![Details](./preview/details-of-movie.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+##### Movie Trailer
+![Trailer](./preview/trailer.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation
 
-## Laravel Sponsors
+Download the zip of this repo or use git clone in your terminal.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```bash
+git clone https://github.com/cyberroot294/laravel-movies-app/edit/master/README.md
+```
 
-### Premium Partners
+## Usage
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+```bash
+cd laravel-movies-app
+
+php artisan serve
+```
+
+After do the instructions, you will create a server usually running on 8000 port. To open the website, type localhost:8000 or another port you are using. And boom, you will be taken to the website.  
 
 ## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Please make sure to update tests as appropriate.
 
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[MIT](https://choosealicense.com/licenses/mit/)
