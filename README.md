@@ -26,7 +26,7 @@ In the website, you will see TV Shows and Actors section on the navbar. I don't 
 Download the zip of this repo or use git clone in your terminal.
 
 ```bash
-git clone https://github.com/cyberroot294/laravel-movies-app/edit/master/README.md
+git clone https://github.com/cyberroot294/laravel-movies-app
 ```
 
 ## Usage
